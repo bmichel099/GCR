@@ -1,0 +1,2252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3c487ccb771b1031c3204acbd4a3d24d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3c487ccb771b1031c3204acbd4a3d24d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3c487ccb771b1031c3204acbd4a3d24d = L.map(
+                "map_3c487ccb771b1031c3204acbd4a3d24d",
+                {
+                    center: [55.8642, -4.2518],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_57daf3553e2fd5ba2611076929e2c897 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_57daf3553e2fd5ba2611076929e2c897.addTo(map_3c487ccb771b1031c3204acbd4a3d24d);
+        
+    
+            var marker_cluster_22659a44509b53a214ee0a956516ec39 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_f26137cc45b38e15382042842056dd64 = L.marker(
+                [55.8608148, -4.0218983],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_ae594017f7f6eb190c8913ff5294d67a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bacf9371e25031c3aadff1027f62384 = $(`<div id="html_3bacf9371e25031c3aadff1027f62384" style="width: 100.0%; height: 100.0%;">Centre Lodge</div>`)[0];
+                popup_ae594017f7f6eb190c8913ff5294d67a.setContent(html_3bacf9371e25031c3aadff1027f62384);
+            
+        
+
+        marker_f26137cc45b38e15382042842056dd64.bindPopup(popup_ae594017f7f6eb190c8913ff5294d67a)
+        ;
+
+        
+    
+    
+            var marker_9f7c827de7c90930e3b94f6bee97eaa3 = L.marker(
+                [55.5240303, -3.7851486],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8627186f913a6f6a64af146d6a8ac802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e29e7666c568eeee18cfb7800ebd948c = $(`<div id="html_e29e7666c568eeee18cfb7800ebd948c" style="width: 100.0%; height: 100.0%;">Red Moss Hotel</div>`)[0];
+                popup_8627186f913a6f6a64af146d6a8ac802.setContent(html_e29e7666c568eeee18cfb7800ebd948c);
+            
+        
+
+        marker_9f7c827de7c90930e3b94f6bee97eaa3.bindPopup(popup_8627186f913a6f6a64af146d6a8ac802)
+        ;
+
+        
+    
+    
+            var marker_b99eb88461f193c825e7653700f3a69c = L.marker(
+                [55.8317061, -4.0333295],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_10103e1ca0678dd6fa53423d8d7f0589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a5c3180a29a693b5b2ad195f7149ad4 = $(`<div id="html_1a5c3180a29a693b5b2ad195f7149ad4" style="width: 100.0%; height: 100.0%;">DoubleTree by Hilton Glasgow Strathclyde</div>`)[0];
+                popup_10103e1ca0678dd6fa53423d8d7f0589.setContent(html_1a5c3180a29a693b5b2ad195f7149ad4);
+            
+        
+
+        marker_b99eb88461f193c825e7653700f3a69c.bindPopup(popup_10103e1ca0678dd6fa53423d8d7f0589)
+        ;
+
+        
+    
+    
+            var marker_3ac51990165769a4e5a467883a418bae = L.marker(
+                [55.7871053, -4.0351196],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_017c888e1ce653502a98adb8e89a6c28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_414fcd2aa8f0d14fceb5f269d97baacc = $(`<div id="html_414fcd2aa8f0d14fceb5f269d97baacc" style="width: 100.0%; height: 100.0%;">Days Inn</div>`)[0];
+                popup_017c888e1ce653502a98adb8e89a6c28.setContent(html_414fcd2aa8f0d14fceb5f269d97baacc);
+            
+        
+
+        marker_3ac51990165769a4e5a467883a418bae.bindPopup(popup_017c888e1ce653502a98adb8e89a6c28)
+        ;
+
+        
+    
+    
+            var marker_ff81b3b38a78a36d9c63c54178a27acd = L.marker(
+                [55.9359923, -4.5256377],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_da4e67be3bee809593c8c9994d79e02d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e98dccd667657b7dbab682552f5ea7c9 = $(`<div id="html_e98dccd667657b7dbab682552f5ea7c9" style="width: 100.0%; height: 100.0%;">Lochway Hotel</div>`)[0];
+                popup_da4e67be3bee809593c8c9994d79e02d.setContent(html_e98dccd667657b7dbab682552f5ea7c9);
+            
+        
+
+        marker_ff81b3b38a78a36d9c63c54178a27acd.bindPopup(popup_da4e67be3bee809593c8c9994d79e02d)
+        ;
+
+        
+    
+    
+            var marker_36a6a52a0d49bc0b617a9841fb4bf6ab = L.marker(
+                [55.8549382, -4.2505018],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_40f3898a069b6f75cfdf8dc93877d785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14dace4118f6dacae8b6336ca59b796f = $(`<div id="html_14dace4118f6dacae8b6336ca59b796f" style="width: 100.0%; height: 100.0%;">Holiday Inn Express</div>`)[0];
+                popup_40f3898a069b6f75cfdf8dc93877d785.setContent(html_14dace4118f6dacae8b6336ca59b796f);
+            
+        
+
+        marker_36a6a52a0d49bc0b617a9841fb4bf6ab.bindPopup(popup_40f3898a069b6f75cfdf8dc93877d785)
+        ;
+
+        
+    
+    
+            var marker_e58051b913e1ba7291522c78ffc4ca71 = L.marker(
+                [55.8607769, -4.2452305],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_c6e35ee60481c1bdd94d2c2b0de79b28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ff543ee0de55444bd078f3220d1083 = $(`<div id="html_f5ff543ee0de55444bd078f3220d1083" style="width: 100.0%; height: 100.0%;">Premier Inn Glasgow City Centre (George Square) hotel</div>`)[0];
+                popup_c6e35ee60481c1bdd94d2c2b0de79b28.setContent(html_f5ff543ee0de55444bd078f3220d1083);
+            
+        
+
+        marker_e58051b913e1ba7291522c78ffc4ca71.bindPopup(popup_c6e35ee60481c1bdd94d2c2b0de79b28)
+        ;
+
+        
+    
+    
+            var marker_061c12b2766d332800242a8622229dc2 = L.marker(
+                [55.8617968, -4.2505705],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8be4ba1b97b2a6dc18d644ae25a323e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82c9cd1af77403e726953b3e1dc7ee70 = $(`<div id="html_82c9cd1af77403e726953b3e1dc7ee70" style="width: 100.0%; height: 100.0%;">Millennium Hotel Glasgow</div>`)[0];
+                popup_8be4ba1b97b2a6dc18d644ae25a323e5.setContent(html_82c9cd1af77403e726953b3e1dc7ee70);
+            
+        
+
+        marker_061c12b2766d332800242a8622229dc2.bindPopup(popup_8be4ba1b97b2a6dc18d644ae25a323e5)
+        ;
+
+        
+    
+    
+            var marker_7bc9194bb36828bdd1ce75ab1c12476a = L.marker(
+                [55.7685957, -4.0120163],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+            var marker_eafb973ab6452daea7d8dd8fa7cdbd08 = L.marker(
+                [55.8007144, -4.0417557],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_057af16a8e2ca061638268e69ec0ccc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e947b9ef2840190e81f7a3ebd5940fd = $(`<div id="html_2e947b9ef2840190e81f7a3ebd5940fd" style="width: 100.0%; height: 100.0%;">Alona Hotel</div>`)[0];
+                popup_057af16a8e2ca061638268e69ec0ccc0.setContent(html_2e947b9ef2840190e81f7a3ebd5940fd);
+            
+        
+
+        marker_eafb973ab6452daea7d8dd8fa7cdbd08.bindPopup(popup_057af16a8e2ca061638268e69ec0ccc0)
+        ;
+
+        
+    
+    
+            var marker_d1497f1141c7af63719abe07df25f392 = L.marker(
+                [55.7913578, -3.9955426],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_e83f02dc9ddd5a8e6a39cade867bd448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0c8b2db408775c6d984b270bce42516 = $(`<div id="html_a0c8b2db408775c6d984b270bce42516" style="width: 100.0%; height: 100.0%;">Bentley Hotel</div>`)[0];
+                popup_e83f02dc9ddd5a8e6a39cade867bd448.setContent(html_a0c8b2db408775c6d984b270bce42516);
+            
+        
+
+        marker_d1497f1141c7af63719abe07df25f392.bindPopup(popup_e83f02dc9ddd5a8e6a39cade867bd448)
+        ;
+
+        
+    
+    
+            var marker_d6ec3ceea6422e9532e57bb826f14fdd = L.marker(
+                [55.9855985, -4.305757],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_d432778b2930be539074572754aa96f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e16c01c0a8b6f75ed6743ef9b3e6f121 = $(`<div id="html_e16c01c0a8b6f75ed6743ef9b3e6f121" style="width: 100.0%; height: 100.0%;">Kirkhouse Inn</div>`)[0];
+                popup_d432778b2930be539074572754aa96f8.setContent(html_e16c01c0a8b6f75ed6743ef9b3e6f121);
+            
+        
+
+        marker_d6ec3ceea6422e9532e57bb826f14fdd.bindPopup(popup_d432778b2930be539074572754aa96f8)
+        ;
+
+        
+    
+    
+            var marker_02594b670ba43a42673e1dcc60193922 = L.marker(
+                [55.8644121, -3.9875235],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_636898e3e49770bc6341924bca76a03a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dd0f27b687a5d0f499132be6e77d67a = $(`<div id="html_7dd0f27b687a5d0f499132be6e77d67a" style="width: 100.0%; height: 100.0%;">Tudor Hotel</div>`)[0];
+                popup_636898e3e49770bc6341924bca76a03a.setContent(html_7dd0f27b687a5d0f499132be6e77d67a);
+            
+        
+
+        marker_02594b670ba43a42673e1dcc60193922.bindPopup(popup_636898e3e49770bc6341924bca76a03a)
+        ;
+
+        
+    
+    
+            var marker_0a93119ad7042f0dbd894df899ef8a23 = L.marker(
+                [55.7263602, -3.9024378],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8afff826b029f05141f77e4bc6f930c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2571c3cd7f0cc4f848a924aa45b94b1b = $(`<div id="html_2571c3cd7f0cc4f848a924aa45b94b1b" style="width: 100.0%; height: 100.0%;">Popinjay Hotel</div>`)[0];
+                popup_8afff826b029f05141f77e4bc6f930c2.setContent(html_2571c3cd7f0cc4f848a924aa45b94b1b);
+            
+        
+
+        marker_0a93119ad7042f0dbd894df899ef8a23.bindPopup(popup_8afff826b029f05141f77e4bc6f930c2)
+        ;
+
+        
+    
+    
+            var marker_f133f37ba449340756a15d9a12712910 = L.marker(
+                [56.0132056, -4.7644103],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a55061238e8aab6a7a1a240f376d1c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47dcabd32c844ad2c16dc03b658b1a52 = $(`<div id="html_47dcabd32c844ad2c16dc03b658b1a52" style="width: 100.0%; height: 100.0%;">Ardencaple</div>`)[0];
+                popup_a55061238e8aab6a7a1a240f376d1c8c.setContent(html_47dcabd32c844ad2c16dc03b658b1a52);
+            
+        
+
+        marker_f133f37ba449340756a15d9a12712910.bindPopup(popup_a55061238e8aab6a7a1a240f376d1c8c)
+        ;
+
+        
+    
+    
+            var marker_bb745686b69d1e621b8517480b1c301a = L.marker(
+                [56.1493144, -4.6414182],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f3009d477b44b2d1a18f26d96f0a24ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e9ad6a999fa49d7ea492398d0e76299 = $(`<div id="html_2e9ad6a999fa49d7ea492398d0e76299" style="width: 100.0%; height: 100.0%;">Rowardennan Hotel</div>`)[0];
+                popup_f3009d477b44b2d1a18f26d96f0a24ba.setContent(html_2e9ad6a999fa49d7ea492398d0e76299);
+            
+        
+
+        marker_bb745686b69d1e621b8517480b1c301a.bindPopup(popup_f3009d477b44b2d1a18f26d96f0a24ba)
+        ;
+
+        
+    
+    
+            var marker_ec87263fd03881f719274b300fb2efa7 = L.marker(
+                [55.8806013, -4.407118],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8927011b8960c6cb347cbe537221a2d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da89808b7709e9efa3c63cdd5b2e7cdf = $(`<div id="html_da89808b7709e9efa3c63cdd5b2e7cdf" style="width: 100.0%; height: 100.0%;">Normandy</div>`)[0];
+                popup_8927011b8960c6cb347cbe537221a2d4.setContent(html_da89808b7709e9efa3c63cdd5b2e7cdf);
+            
+        
+
+        marker_ec87263fd03881f719274b300fb2efa7.bindPopup(popup_8927011b8960c6cb347cbe537221a2d4)
+        ;
+
+        
+    
+    
+            var marker_afdfce455b9072aca5389c2cdd664d27 = L.marker(
+                [56.1220413, -3.9348433],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_eeec14c8567d2b9df53d5cce39b12513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6a1c6eb36fc51e1261ecf4de5fbd868 = $(`<div id="html_d6a1c6eb36fc51e1261ecf4de5fbd868" style="width: 100.0%; height: 100.0%;">Forth Guest House</div>`)[0];
+                popup_eeec14c8567d2b9df53d5cce39b12513.setContent(html_d6a1c6eb36fc51e1261ecf4de5fbd868);
+            
+        
+
+        marker_afdfce455b9072aca5389c2cdd664d27.bindPopup(popup_eeec14c8567d2b9df53d5cce39b12513)
+        ;
+
+        
+    
+    
+            var marker_56790e0927010357349300c8b0e342fb = L.marker(
+                [55.8658326, -4.285795],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_04ec5a037c566da7b58c0b3efa439ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83894799ee145ea45a0ece1130635101 = $(`<div id="html_83894799ee145ea45a0ece1130635101" style="width: 100.0%; height: 100.0%;">Devoncove Hotel</div>`)[0];
+                popup_04ec5a037c566da7b58c0b3efa439ea1.setContent(html_83894799ee145ea45a0ece1130635101);
+            
+        
+
+        marker_56790e0927010357349300c8b0e342fb.bindPopup(popup_04ec5a037c566da7b58c0b3efa439ea1)
+        ;
+
+        
+    
+    
+            var marker_d183f28ec8251d38ee510d5bf2fc05c6 = L.marker(
+                [55.8192672, -4.0418166],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_45ee0b23d84efea8b22e3e8b3865086a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10936f42c4538492c4ecc418b2dce36a = $(`<div id="html_10936f42c4538492c4ecc418b2dce36a" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_45ee0b23d84efea8b22e3e8b3865086a.setContent(html_10936f42c4538492c4ecc418b2dce36a);
+            
+        
+
+        marker_d183f28ec8251d38ee510d5bf2fc05c6.bindPopup(popup_45ee0b23d84efea8b22e3e8b3865086a)
+        ;
+
+        
+    
+    
+            var marker_ae31d3de0d08f6511bbf7e4ad214bf66 = L.marker(
+                [55.8802285, -4.2860368],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_aa9bc94e3cbf1465065faeb286db5b6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f686bdbeab7e3d4f8b2779a51872e82 = $(`<div id="html_5f686bdbeab7e3d4f8b2779a51872e82" style="width: 100.0%; height: 100.0%;">Ambassador Hotel</div>`)[0];
+                popup_aa9bc94e3cbf1465065faeb286db5b6e.setContent(html_5f686bdbeab7e3d4f8b2779a51872e82);
+            
+        
+
+        marker_ae31d3de0d08f6511bbf7e4ad214bf66.bindPopup(popup_aa9bc94e3cbf1465065faeb286db5b6e)
+        ;
+
+        
+    
+    
+            var marker_c30e3f2dcc6c1876114d405136d55acb = L.marker(
+                [55.7784345, -4.0576919],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_d006c7038a156733ee00e44677918b63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e13f848efea86249b3d99d60098dc28 = $(`<div id="html_5e13f848efea86249b3d99d60098dc28" style="width: 100.0%; height: 100.0%;">The Villa Hotel</div>`)[0];
+                popup_d006c7038a156733ee00e44677918b63.setContent(html_5e13f848efea86249b3d99d60098dc28);
+            
+        
+
+        marker_c30e3f2dcc6c1876114d405136d55acb.bindPopup(popup_d006c7038a156733ee00e44677918b63)
+        ;
+
+        
+    
+    
+            var marker_23560ace35c25da2a182b228fba61abc = L.marker(
+                [55.8589791, -4.2468479],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a89d4a278e20d0ff311ec4ec8215b5b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd452efe83c19632c3c624ea012c481e = $(`<div id="html_cd452efe83c19632c3c624ea012c481e" style="width: 100.0%; height: 100.0%;">The Brunswick</div>`)[0];
+                popup_a89d4a278e20d0ff311ec4ec8215b5b3.setContent(html_cd452efe83c19632c3c624ea012c481e);
+            
+        
+
+        marker_23560ace35c25da2a182b228fba61abc.bindPopup(popup_a89d4a278e20d0ff311ec4ec8215b5b3)
+        ;
+
+        
+    
+    
+            var marker_f1cc595e30080a571e9ab34e1461fb92 = L.marker(
+                [55.8643595, -4.2652844],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_649097d31f904dd74beb411deec8c334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e15d9b0bda820b3ad76064d1a0de4477 = $(`<div id="html_e15d9b0bda820b3ad76064d1a0de4477" style="width: 100.0%; height: 100.0%;">Novotel</div>`)[0];
+                popup_649097d31f904dd74beb411deec8c334.setContent(html_e15d9b0bda820b3ad76064d1a0de4477);
+            
+        
+
+        marker_f1cc595e30080a571e9ab34e1461fb92.bindPopup(popup_649097d31f904dd74beb411deec8c334)
+        ;
+
+        
+    
+    
+            var marker_6056a7f69bbc639dcc28ca5a2e9f9da9 = L.marker(
+                [55.8585079, -4.2603739],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f16d0cf896ae3a20d416643ee6b9d047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a2d2af8c65282424b3be4090ef432e6 = $(`<div id="html_9a2d2af8c65282424b3be4090ef432e6" style="width: 100.0%; height: 100.0%;">Radisson Blu Hotel, Glasgow</div>`)[0];
+                popup_f16d0cf896ae3a20d416643ee6b9d047.setContent(html_9a2d2af8c65282424b3be4090ef432e6);
+            
+        
+
+        marker_6056a7f69bbc639dcc28ca5a2e9f9da9.bindPopup(popup_f16d0cf896ae3a20d416643ee6b9d047)
+        ;
+
+        
+    
+    
+            var marker_f1d24523bc22e8ae070bfef0ee802497 = L.marker(
+                [55.6637036, -3.7827567],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_7adc961d930262eb68765cd9ba49d568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58d38668b2e93e67750ffe6ff75d442d = $(`<div id="html_58d38668b2e93e67750ffe6ff75d442d" style="width: 100.0%; height: 100.0%;">New Lanark Mill Hotel</div>`)[0];
+                popup_7adc961d930262eb68765cd9ba49d568.setContent(html_58d38668b2e93e67750ffe6ff75d442d);
+            
+        
+
+        marker_f1d24523bc22e8ae070bfef0ee802497.bindPopup(popup_7adc961d930262eb68765cd9ba49d568)
+        ;
+
+        
+    
+    
+            var marker_066e27ef68f8502cd54a69475fd2da06 = L.marker(
+                [56.0758066, -3.9224535],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a39ae8e823e82fc9e20d4c93c19aed32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea5df0fc161dffe847a2ee66792f3f8b = $(`<div id="html_ea5df0fc161dffe847a2ee66792f3f8b" style="width: 100.0%; height: 100.0%;">Travelodge</div>`)[0];
+                popup_a39ae8e823e82fc9e20d4c93c19aed32.setContent(html_ea5df0fc161dffe847a2ee66792f3f8b);
+            
+        
+
+        marker_066e27ef68f8502cd54a69475fd2da06.bindPopup(popup_a39ae8e823e82fc9e20d4c93c19aed32)
+        ;
+
+        
+    
+    
+            var marker_51e6ce96aa884d58a9e4b31a0aa04c4a = L.marker(
+                [56.0618132, -4.2167247],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f35f4535af39a82c5eb706ae190039a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6cecb25ff435a06f95373a84f50206e = $(`<div id="html_d6cecb25ff435a06f95373a84f50206e" style="width: 100.0%; height: 100.0%;">Culcreuch Castle Hotel</div>`)[0];
+                popup_f35f4535af39a82c5eb706ae190039a8.setContent(html_d6cecb25ff435a06f95373a84f50206e);
+            
+        
+
+        marker_51e6ce96aa884d58a9e4b31a0aa04c4a.bindPopup(popup_f35f4535af39a82c5eb706ae190039a8)
+        ;
+
+        
+    
+    
+            var marker_d6bbc3861f41087692e735cc03d1e362 = L.marker(
+                [56.066093, -4.452505],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_da0bb8b5efd904f0d409122dab8925b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fee934cbc70db22835039ddb4fa647dc = $(`<div id="html_fee934cbc70db22835039ddb4fa647dc" style="width: 100.0%; height: 100.0%;">The Clachan Inn</div>`)[0];
+                popup_da0bb8b5efd904f0d409122dab8925b5.setContent(html_fee934cbc70db22835039ddb4fa647dc);
+            
+        
+
+        marker_d6bbc3861f41087692e735cc03d1e362.bindPopup(popup_da0bb8b5efd904f0d409122dab8925b5)
+        ;
+
+        
+    
+    
+            var marker_d388026a8d82725c8a5709be2ae32df4 = L.marker(
+                [55.8255987, -4.0866894],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a6924f0c9c75224ef86142a09b85c1ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f279857ce67fa8d78ae963167aa4349b = $(`<div id="html_f279857ce67fa8d78ae963167aa4349b" style="width: 100.0%; height: 100.0%;">Redstones Hotel</div>`)[0];
+                popup_a6924f0c9c75224ef86142a09b85c1ff.setContent(html_f279857ce67fa8d78ae963167aa4349b);
+            
+        
+
+        marker_d388026a8d82725c8a5709be2ae32df4.bindPopup(popup_a6924f0c9c75224ef86142a09b85c1ff)
+        ;
+
+        
+    
+    
+            var marker_f41a2a6d558701c81f5edf247dc184d7 = L.marker(
+                [55.6039061, -4.5104668],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_e78db2aa7ef5ea37c53a41360367b713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0e5af870d7972e61827efaad022a3fa = $(`<div id="html_a0e5af870d7972e61827efaad022a3fa" style="width: 100.0%; height: 100.0%;">Park Hotel</div>`)[0];
+                popup_e78db2aa7ef5ea37c53a41360367b713.setContent(html_a0e5af870d7972e61827efaad022a3fa);
+            
+        
+
+        marker_f41a2a6d558701c81f5edf247dc184d7.bindPopup(popup_e78db2aa7ef5ea37c53a41360367b713)
+        ;
+
+        
+    
+    
+            var marker_defc61e3ba0e906578c0f85b8717e282 = L.marker(
+                [55.8366884, -4.1098202],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_b4a974e8202d9f5b3e073ec013dac8b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b211bfaf76291c419afa5217f95d87 = $(`<div id="html_a7b211bfaf76291c419afa5217f95d87" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_b4a974e8202d9f5b3e073ec013dac8b6.setContent(html_a7b211bfaf76291c419afa5217f95d87);
+            
+        
+
+        marker_defc61e3ba0e906578c0f85b8717e282.bindPopup(popup_b4a974e8202d9f5b3e073ec013dac8b6)
+        ;
+
+        
+    
+    
+            var marker_e5960703411b96286bfb916ae0c49f30 = L.marker(
+                [55.6819244, -3.7930875],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_bba0dd819f5a5327ea36746c13480ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a848f6894e0183b944132fbf1d8fc24f = $(`<div id="html_a848f6894e0183b944132fbf1d8fc24f" style="width: 100.0%; height: 100.0%;">Cartland Bridge Hotel</div>`)[0];
+                popup_bba0dd819f5a5327ea36746c13480ba7.setContent(html_a848f6894e0183b944132fbf1d8fc24f);
+            
+        
+
+        marker_e5960703411b96286bfb916ae0c49f30.bindPopup(popup_bba0dd819f5a5327ea36746c13480ba7)
+        ;
+
+        
+    
+    
+            var marker_99be47cc67ccccd9e7b2a6dd41e43b40 = L.marker(
+                [55.843925, -4.0240512],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_59fcc171da2aaaa29d8178d372e94d93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3f434048760dffa90a49502350a4397 = $(`<div id="html_d3f434048760dffa90a49502350a4397" style="width: 100.0%; height: 100.0%;">Grange Hotel</div>`)[0];
+                popup_59fcc171da2aaaa29d8178d372e94d93.setContent(html_d3f434048760dffa90a49502350a4397);
+            
+        
+
+        marker_99be47cc67ccccd9e7b2a6dd41e43b40.bindPopup(popup_59fcc171da2aaaa29d8178d372e94d93)
+        ;
+
+        
+    
+    
+            var marker_e207ba05c9252db202551fe9fdfc6fc0 = L.marker(
+                [55.8649065, -4.2698826],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_0173a8852b0ef24c4fc527382253d4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4062ecad4f3909d53a92b0386c1aaaf0 = $(`<div id="html_4062ecad4f3909d53a92b0386c1aaaf0" style="width: 100.0%; height: 100.0%;">Britannia Inn</div>`)[0];
+                popup_0173a8852b0ef24c4fc527382253d4a7.setContent(html_4062ecad4f3909d53a92b0386c1aaaf0);
+            
+        
+
+        marker_e207ba05c9252db202551fe9fdfc6fc0.bindPopup(popup_0173a8852b0ef24c4fc527382253d4a7)
+        ;
+
+        
+    
+    
+            var marker_6b366117ea154e14e5cbe834de72a5ca = L.marker(
+                [56.0619547, -3.7702341],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_02e1336775123c3de55cea89677df659 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6464a2f3348483f456c3abfbf482170 = $(`<div id="html_d6464a2f3348483f456c3abfbf482170" style="width: 100.0%; height: 100.0%;">Airth Castle Hotel</div>`)[0];
+                popup_02e1336775123c3de55cea89677df659.setContent(html_d6464a2f3348483f456c3abfbf482170);
+            
+        
+
+        marker_6b366117ea154e14e5cbe834de72a5ca.bindPopup(popup_02e1336775123c3de55cea89677df659)
+        ;
+
+        
+    
+    
+            var marker_ebcf77fc5c422f8e5bbcbd845e23a9cd = L.marker(
+                [55.8306539, -4.5125915],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_b127673d2384e906654dda27cb5b420f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b2e52e111644b83286af8c246b6ddb5 = $(`<div id="html_7b2e52e111644b83286af8c246b6ddb5" style="width: 100.0%; height: 100.0%;">Lynnhurst Hotel</div>`)[0];
+                popup_b127673d2384e906654dda27cb5b420f.setContent(html_7b2e52e111644b83286af8c246b6ddb5);
+            
+        
+
+        marker_ebcf77fc5c422f8e5bbcbd845e23a9cd.bindPopup(popup_b127673d2384e906654dda27cb5b420f)
+        ;
+
+        
+    
+    
+            var marker_3d664d26d66c38bae03d3e8ba2cf7e92 = L.marker(
+                [55.8655521, -4.2541058],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_0e88480c1013f393a962236c21ab84a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb8cd99ac175449f7bbb0fc824e99f69 = $(`<div id="html_bb8cd99ac175449f7bbb0fc824e99f69" style="width: 100.0%; height: 100.0%;">Holiday Inn Express</div>`)[0];
+                popup_0e88480c1013f393a962236c21ab84a9.setContent(html_bb8cd99ac175449f7bbb0fc824e99f69);
+            
+        
+
+        marker_3d664d26d66c38bae03d3e8ba2cf7e92.bindPopup(popup_0e88480c1013f393a962236c21ab84a9)
+        ;
+
+        
+    
+    
+            var marker_fa1fbdc83a43ff7681c01be1eaa54074 = L.marker(
+                [55.8655461, -4.2565711],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_93ebed819e422fc159dfbc53883ec1b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe7fbd4caf0b4ab569eff606b87b3b54 = $(`<div id="html_fe7fbd4caf0b4ab569eff606b87b3b54" style="width: 100.0%; height: 100.0%;">CitizenM Hotel</div>`)[0];
+                popup_93ebed819e422fc159dfbc53883ec1b0.setContent(html_fe7fbd4caf0b4ab569eff606b87b3b54);
+            
+        
+
+        marker_fa1fbdc83a43ff7681c01be1eaa54074.bindPopup(popup_93ebed819e422fc159dfbc53883ec1b0)
+        ;
+
+        
+    
+    
+            var marker_f62724378d594fa2fbe8fc7303282678 = L.marker(
+                [55.8589242, -4.2616336],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_4d89d388eeb72be767ba3619e959b626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d70614d6f048ec2e689e61b9ef2a304 = $(`<div id="html_9d70614d6f048ec2e689e61b9ef2a304" style="width: 100.0%; height: 100.0%;">Alexander Thomson</div>`)[0];
+                popup_4d89d388eeb72be767ba3619e959b626.setContent(html_9d70614d6f048ec2e689e61b9ef2a304);
+            
+        
+
+        marker_f62724378d594fa2fbe8fc7303282678.bindPopup(popup_4d89d388eeb72be767ba3619e959b626)
+        ;
+
+        
+    
+    
+            var marker_53490c993969728dfffbdbd5dc98b40c = L.marker(
+                [55.8616235, -4.2689577],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_e8d2ba3637301579904bbb7365ef1918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa898622972f9c0297fa0609ee7ee19 = $(`<div id="html_ffa898622972f9c0297fa0609ee7ee19" style="width: 100.0%; height: 100.0%;">Hilton Glasgow</div>`)[0];
+                popup_e8d2ba3637301579904bbb7365ef1918.setContent(html_ffa898622972f9c0297fa0609ee7ee19);
+            
+        
+
+        marker_53490c993969728dfffbdbd5dc98b40c.bindPopup(popup_e8d2ba3637301579904bbb7365ef1918)
+        ;
+
+        
+    
+    
+            var marker_ed23c196b6a8ff0334b4b0335218d9b0 = L.marker(
+                [56.0517965, -3.7385151],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_44e645437ba154753221f3f47baae1c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ecc3549771fee7607b0144b943f9322 = $(`<div id="html_0ecc3549771fee7607b0144b943f9322" style="width: 100.0%; height: 100.0%;">Powfowlis Manor</div>`)[0];
+                popup_44e645437ba154753221f3f47baae1c5.setContent(html_0ecc3549771fee7607b0144b943f9322);
+            
+        
+
+        marker_ed23c196b6a8ff0334b4b0335218d9b0.bindPopup(popup_44e645437ba154753221f3f47baae1c5)
+        ;
+
+        
+    
+    
+            var marker_e6a8d9719c624076e670a4807db1bf81 = L.marker(
+                [55.9063079, -4.4272555],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_ce7d01881282eb01044f58c4bf108e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50a41d09f0f5138b8efbfa7a93f2d512 = $(`<div id="html_50a41d09f0f5138b8efbfa7a93f2d512" style="width: 100.0%; height: 100.0%;">Golden Jubilee Conference Hotel</div>`)[0];
+                popup_ce7d01881282eb01044f58c4bf108e62.setContent(html_50a41d09f0f5138b8efbfa7a93f2d512);
+            
+        
+
+        marker_e6a8d9719c624076e670a4807db1bf81.bindPopup(popup_ce7d01881282eb01044f58c4bf108e62)
+        ;
+
+        
+    
+    
+            var marker_373a6ecbc14ff17bd3348985dd033173 = L.marker(
+                [55.8598625, -4.2500413],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_e189eebbe5f8fb9485adef63e490db9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5688a564ef53539766de6251f850724f = $(`<div id="html_5688a564ef53539766de6251f850724f" style="width: 100.0%; height: 100.0%;">Mercure Hotel</div>`)[0];
+                popup_e189eebbe5f8fb9485adef63e490db9a.setContent(html_5688a564ef53539766de6251f850724f);
+            
+        
+
+        marker_373a6ecbc14ff17bd3348985dd033173.bindPopup(popup_e189eebbe5f8fb9485adef63e490db9a)
+        ;
+
+        
+    
+    
+            var marker_7b4755add85f3c79ad53370b6f5b6cab = L.marker(
+                [56.1143741, -3.9386626],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_5cb29365d71b05aeaf12ef30bdb6084a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b326cfcc4739b506fc3dae83c8cd3d5e = $(`<div id="html_b326cfcc4739b506fc3dae83c8cd3d5e" style="width: 100.0%; height: 100.0%;">Terraces Hotel</div>`)[0];
+                popup_5cb29365d71b05aeaf12ef30bdb6084a.setContent(html_b326cfcc4739b506fc3dae83c8cd3d5e);
+            
+        
+
+        marker_7b4755add85f3c79ad53370b6f5b6cab.bindPopup(popup_5cb29365d71b05aeaf12ef30bdb6084a)
+        ;
+
+        
+    
+    
+            var marker_51e9cc26b04f9405192a35eb690dd712 = L.marker(
+                [56.1151372, -3.9338162],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_3b7bd95078a5a7eac50d19fe93dfba03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ebd54243ab15ee8ef3704a5dbf4842 = $(`<div id="html_b3ebd54243ab15ee8ef3704a5dbf4842" style="width: 100.0%; height: 100.0%;">Fletchers</div>`)[0];
+                popup_3b7bd95078a5a7eac50d19fe93dfba03.setContent(html_b3ebd54243ab15ee8ef3704a5dbf4842);
+            
+        
+
+        marker_51e9cc26b04f9405192a35eb690dd712.bindPopup(popup_3b7bd95078a5a7eac50d19fe93dfba03)
+        ;
+
+        
+    
+    
+            var marker_d48d4840cfb0074a70050a33fcf0403b = L.marker(
+                [55.7015338, -3.8721676],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_22c80bb0a48f6527b1fb2676de54c35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16e0bf0f8ba9a36cf4ffbb8d67157105 = $(`<div id="html_16e0bf0f8ba9a36cf4ffbb8d67157105" style="width: 100.0%; height: 100.0%;">Tillietudlem Hotel</div>`)[0];
+                popup_22c80bb0a48f6527b1fb2676de54c35a.setContent(html_16e0bf0f8ba9a36cf4ffbb8d67157105);
+            
+        
+
+        marker_d48d4840cfb0074a70050a33fcf0403b.bindPopup(popup_22c80bb0a48f6527b1fb2676de54c35a)
+        ;
+
+        
+    
+    
+            var marker_fb180c66f3e2c9cdc13c43b60cfb2e61 = L.marker(
+                [55.7610904, -4.1788711],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_c3bef645d6eacabb8ebaf89246a22cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa8cc3cd3073a33f34beffca22803d4 = $(`<div id="html_7aa8cc3cd3073a33f34beffca22803d4" style="width: 100.0%; height: 100.0%;">Bruce Hotel</div>`)[0];
+                popup_c3bef645d6eacabb8ebaf89246a22cec.setContent(html_7aa8cc3cd3073a33f34beffca22803d4);
+            
+        
+
+        marker_fb180c66f3e2c9cdc13c43b60cfb2e61.bindPopup(popup_c3bef645d6eacabb8ebaf89246a22cec)
+        ;
+
+        
+    
+    
+            var marker_96c9d6c3cbccf35222744e6decddaeeb = L.marker(
+                [55.864314, -4.2660706],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_74e87b89724c94bf7069cb80aa687cdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e4eb85bfc9be64eba0b0c8db1c2100e = $(`<div id="html_2e4eb85bfc9be64eba0b0c8db1c2100e" style="width: 100.0%; height: 100.0%;">Ibis Glasgow City Centre</div>`)[0];
+                popup_74e87b89724c94bf7069cb80aa687cdc.setContent(html_2e4eb85bfc9be64eba0b0c8db1c2100e);
+            
+        
+
+        marker_96c9d6c3cbccf35222744e6decddaeeb.bindPopup(popup_74e87b89724c94bf7069cb80aa687cdc)
+        ;
+
+        
+    
+    
+            var marker_c57927dfd25e848d0835c0d5fd3d937f = L.marker(
+                [55.9526502, -4.7679722],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_102d896d014fca7f8da04248187320d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a01d035087aad000359afb014fa1191 = $(`<div id="html_4a01d035087aad000359afb014fa1191" style="width: 100.0%; height: 100.0%;">Tontine Hotel</div>`)[0];
+                popup_102d896d014fca7f8da04248187320d1.setContent(html_4a01d035087aad000359afb014fa1191);
+            
+        
+
+        marker_c57927dfd25e848d0835c0d5fd3d937f.bindPopup(popup_102d896d014fca7f8da04248187320d1)
+        ;
+
+        
+    
+    
+            var marker_e7b2e2c4ebdc8374f53a771ee31ba8ee = L.marker(
+                [55.86664, -4.2656444],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f0e6db1984f190d3019c1d96ceb490cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8b4ff6399b08e3ccec0c67f92ecf9ef = $(`<div id="html_a8b4ff6399b08e3ccec0c67f92ecf9ef" style="width: 100.0%; height: 100.0%;">The Victorian House</div>`)[0];
+                popup_f0e6db1984f190d3019c1d96ceb490cd.setContent(html_a8b4ff6399b08e3ccec0c67f92ecf9ef);
+            
+        
+
+        marker_e7b2e2c4ebdc8374f53a771ee31ba8ee.bindPopup(popup_f0e6db1984f190d3019c1d96ceb490cd)
+        ;
+
+        
+    
+    
+            var marker_8c96f9b257c264bfd0578abf282d42d3 = L.marker(
+                [55.8660884, -4.2857689],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_cc6fd995a0400d933706f50767937148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97171787eca5ce6eea723c9c05023366 = $(`<div id="html_97171787eca5ce6eea723c9c05023366" style="width: 100.0%; height: 100.0%;">Kelvingrove Hotel</div>`)[0];
+                popup_cc6fd995a0400d933706f50767937148.setContent(html_97171787eca5ce6eea723c9c05023366);
+            
+        
+
+        marker_8c96f9b257c264bfd0578abf282d42d3.bindPopup(popup_cc6fd995a0400d933706f50767937148)
+        ;
+
+        
+    
+    
+            var marker_8f2ddcac9050e0bcb440b389813a6371 = L.marker(
+                [55.8655374, -4.2850175],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_e8f1b9b674dfeba08182f32a3a159363 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db19da5acc95d149dca11ac2ec9d27e1 = $(`<div id="html_db19da5acc95d149dca11ac2ec9d27e1" style="width: 100.0%; height: 100.0%;">Lorne Hotel</div>`)[0];
+                popup_e8f1b9b674dfeba08182f32a3a159363.setContent(html_db19da5acc95d149dca11ac2ec9d27e1);
+            
+        
+
+        marker_8f2ddcac9050e0bcb440b389813a6371.bindPopup(popup_e8f1b9b674dfeba08182f32a3a159363)
+        ;
+
+        
+    
+    
+            var marker_c3e4f467a79efe0b67a8437977e7f40e = L.marker(
+                [55.8659765, -4.2862434],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_7a2dcf01fca15af7e4720e8b0a154f74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce036a1ad27e45c7deabc3f44fc6f303 = $(`<div id="html_ce036a1ad27e45c7deabc3f44fc6f303" style="width: 100.0%; height: 100.0%;">Smith's Hotel</div>`)[0];
+                popup_7a2dcf01fca15af7e4720e8b0a154f74.setContent(html_ce036a1ad27e45c7deabc3f44fc6f303);
+            
+        
+
+        marker_c3e4f467a79efe0b67a8437977e7f40e.bindPopup(popup_7a2dcf01fca15af7e4720e8b0a154f74)
+        ;
+
+        
+    
+    
+            var marker_102b6d881c46246bb74b5b65de44b330 = L.marker(
+                [55.8424663, -4.1654622],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_80c84df15c204046fb9792381b06bcc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdbef0ad9f350414360c0085bc0b46e2 = $(`<div id="html_cdbef0ad9f350414360c0085bc0b46e2" style="width: 100.0%; height: 100.0%;">Fullarton Park Hotel</div>`)[0];
+                popup_80c84df15c204046fb9792381b06bcc8.setContent(html_cdbef0ad9f350414360c0085bc0b46e2);
+            
+        
+
+        marker_102b6d881c46246bb74b5b65de44b330.bindPopup(popup_80c84df15c204046fb9792381b06bcc8)
+        ;
+
+        
+    
+    
+            var marker_af79ccf81e8904ae947c07633e218abd = L.marker(
+                [55.8660359, -4.286502],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_4d3dddf7e2f4749d547b5fe8a90bd518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16dc3427ff89b16d9a75a2b7a04d08dc = $(`<div id="html_16dc3427ff89b16d9a75a2b7a04d08dc" style="width: 100.0%; height: 100.0%;">Argyll Hotel</div>`)[0];
+                popup_4d3dddf7e2f4749d547b5fe8a90bd518.setContent(html_16dc3427ff89b16d9a75a2b7a04d08dc);
+            
+        
+
+        marker_af79ccf81e8904ae947c07633e218abd.bindPopup(popup_4d3dddf7e2f4749d547b5fe8a90bd518)
+        ;
+
+        
+    
+    
+            var marker_85e09effc3f995ca841fa4a035bd391a = L.marker(
+                [55.8572553, -4.2451302],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_992468953851f83a88ba6e2a6fbbe5d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc935f3cb7b66d66ab94ea897221a44c = $(`<div id="html_bc935f3cb7b66d66ab94ea897221a44c" style="width: 100.0%; height: 100.0%;">Fraser Suites</div>`)[0];
+                popup_992468953851f83a88ba6e2a6fbbe5d4.setContent(html_bc935f3cb7b66d66ab94ea897221a44c);
+            
+        
+
+        marker_85e09effc3f995ca841fa4a035bd391a.bindPopup(popup_992468953851f83a88ba6e2a6fbbe5d4)
+        ;
+
+        
+    
+    
+            var marker_e701a891b73ac1a3548714e8ad440448 = L.marker(
+                [55.8940208, -4.1318489],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_51d056d6774b11139e6cd723762f0db0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3caa6c8377933e6c82612879b8a6b0a8 = $(`<div id="html_3caa6c8377933e6c82612879b8a6b0a8" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_51d056d6774b11139e6cd723762f0db0.setContent(html_3caa6c8377933e6c82612879b8a6b0a8);
+            
+        
+
+        marker_e701a891b73ac1a3548714e8ad440448.bindPopup(popup_51d056d6774b11139e6cd723762f0db0)
+        ;
+
+        
+    
+    
+            var marker_c66aeb2bf52a26187aba92909446174a = L.marker(
+                [55.9563976, -4.5591782],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_654192bcb45034cc3bb01de0182a8fd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6509f7783bde0a00598f6bf7d087c514 = $(`<div id="html_6509f7783bde0a00598f6bf7d087c514" style="width: 100.0%; height: 100.0%;">Premier Inn Dumbarton Loch Lomond</div>`)[0];
+                popup_654192bcb45034cc3bb01de0182a8fd0.setContent(html_6509f7783bde0a00598f6bf7d087c514);
+            
+        
+
+        marker_c66aeb2bf52a26187aba92909446174a.bindPopup(popup_654192bcb45034cc3bb01de0182a8fd0)
+        ;
+
+        
+    
+    
+            var marker_fe97a2be3a614d3f15e1d65624477d10 = L.marker(
+                [55.8594434, -4.2593877],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_2f7f3d6ed905ec04a034c4527cd04767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51cc63cc3a5403149d36d36a43ca2cce = $(`<div id="html_51cc63cc3a5403149d36d36a43ca2cce" style="width: 100.0%; height: 100.0%;">Artto Hotel</div>`)[0];
+                popup_2f7f3d6ed905ec04a034c4527cd04767.setContent(html_51cc63cc3a5403149d36d36a43ca2cce);
+            
+        
+
+        marker_fe97a2be3a614d3f15e1d65624477d10.bindPopup(popup_2f7f3d6ed905ec04a034c4527cd04767)
+        ;
+
+        
+    
+    
+            var marker_8a636c8b29cbc8d607fcc75aaaefd090 = L.marker(
+                [55.8645662, -4.2542952],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_235659d747badb1dac9a93bba8494665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6bf57e0809144d725b205c1d702c302 = $(`<div id="html_a6bf57e0809144d725b205c1d702c302" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_235659d747badb1dac9a93bba8494665.setContent(html_a6bf57e0809144d725b205c1d702c302);
+            
+        
+
+        marker_8a636c8b29cbc8d607fcc75aaaefd090.bindPopup(popup_235659d747badb1dac9a93bba8494665)
+        ;
+
+        
+    
+    
+            var marker_e0e3c8432d849f21fc0a3e52d6ec9ab0 = L.marker(
+                [55.8593601, -4.2572074],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_6593f94673e3604c6297d1385091f300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ddad06f64bb21d8121a372fe9c7ddd1 = $(`<div id="html_6ddad06f64bb21d8121a372fe9c7ddd1" style="width: 100.0%; height: 100.0%;">Rennie Mackintosh Station Hotel</div>`)[0];
+                popup_6593f94673e3604c6297d1385091f300.setContent(html_6ddad06f64bb21d8121a372fe9c7ddd1);
+            
+        
+
+        marker_e0e3c8432d849f21fc0a3e52d6ec9ab0.bindPopup(popup_6593f94673e3604c6297d1385091f300)
+        ;
+
+        
+    
+    
+            var marker_1a387247a2d33d11e888577966ce41c6 = L.marker(
+                [55.8823884, -4.3043647],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_9d7c55d62cf5966e49f98f6a990f4ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db3b611ae509888b88f853bdb783688 = $(`<div id="html_8db3b611ae509888b88f853bdb783688" style="width: 100.0%; height: 100.0%;">One Devonshire Gardens</div>`)[0];
+                popup_9d7c55d62cf5966e49f98f6a990f4ee5.setContent(html_8db3b611ae509888b88f853bdb783688);
+            
+        
+
+        marker_1a387247a2d33d11e888577966ce41c6.bindPopup(popup_9d7c55d62cf5966e49f98f6a990f4ee5)
+        ;
+
+        
+    
+    
+            var marker_093b23daf8421c5b21fe8422329b6374 = L.marker(
+                [55.9352881, -4.5168459],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_bfd715a1f9b69c285a023ef0683f567d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49ff0ffb67e3e4103daa55b4a016bdaf = $(`<div id="html_49ff0ffb67e3e4103daa55b4a016bdaf" style="width: 100.0%; height: 100.0%;">Travelodge</div>`)[0];
+                popup_bfd715a1f9b69c285a023ef0683f567d.setContent(html_49ff0ffb67e3e4103daa55b4a016bdaf);
+            
+        
+
+        marker_093b23daf8421c5b21fe8422329b6374.bindPopup(popup_bfd715a1f9b69c285a023ef0683f567d)
+        ;
+
+        
+    
+    
+            var marker_68a681cc3fcb0e19d960e16d4895c490 = L.marker(
+                [55.8227824, -4.0467189],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_25ec56848348affd9cb890c5d5fe6f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24ea0eb2b12ac9e396786b8b5ce565f8 = $(`<div id="html_24ea0eb2b12ac9e396786b8b5ce565f8" style="width: 100.0%; height: 100.0%;">El Capo</div>`)[0];
+                popup_25ec56848348affd9cb890c5d5fe6f60.setContent(html_24ea0eb2b12ac9e396786b8b5ce565f8);
+            
+        
+
+        marker_68a681cc3fcb0e19d960e16d4895c490.bindPopup(popup_25ec56848348affd9cb890c5d5fe6f60)
+        ;
+
+        
+    
+    
+            var marker_e5b766ab4e7e806a29b7638e7a02f80c = L.marker(
+                [56.031624, -3.8385804],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_ff5199459a120b7c984111fd9e33eab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeefe8fbeb87c7892beda5a498c75620 = $(`<div id="html_eeefe8fbeb87c7892beda5a498c75620" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_ff5199459a120b7c984111fd9e33eab3.setContent(html_eeefe8fbeb87c7892beda5a498c75620);
+            
+        
+
+        marker_e5b766ab4e7e806a29b7638e7a02f80c.bindPopup(popup_ff5199459a120b7c984111fd9e33eab3)
+        ;
+
+        
+    
+    
+            var marker_b57e1cd83d5c181bd2bee38fa29124d4 = L.marker(
+                [55.7797869, -4.0514618],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_b7cddf528dfbe89033fa1d3532b40095 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d60f131e76a05be7c46fbcc7dfb402d8 = $(`<div id="html_d60f131e76a05be7c46fbcc7dfb402d8" style="width: 100.0%; height: 100.0%;">The Clydesdale Hotel</div>`)[0];
+                popup_b7cddf528dfbe89033fa1d3532b40095.setContent(html_d60f131e76a05be7c46fbcc7dfb402d8);
+            
+        
+
+        marker_b57e1cd83d5c181bd2bee38fa29124d4.bindPopup(popup_b7cddf528dfbe89033fa1d3532b40095)
+        ;
+
+        
+    
+    
+            var marker_a010c08e5e9acf5e282b85caaed3cbb5 = L.marker(
+                [55.9892603, -4.571871],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f4ca0a44be2636a511db5fdd0f7b18c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8ba6196bb11a1588e903df8845cffeb = $(`<div id="html_f8ba6196bb11a1588e903df8845cffeb" style="width: 100.0%; height: 100.0%;">Sunnyside B+B</div>`)[0];
+                popup_f4ca0a44be2636a511db5fdd0f7b18c2.setContent(html_f8ba6196bb11a1588e903df8845cffeb);
+            
+        
+
+        marker_a010c08e5e9acf5e282b85caaed3cbb5.bindPopup(popup_f4ca0a44be2636a511db5fdd0f7b18c2)
+        ;
+
+        
+    
+    
+            var marker_1fa97a1e6def0ae8cd77f741377e3c37 = L.marker(
+                [56.1179334, -3.937306],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_14eb9e8eb1840b2092c6aecc3880d53e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8ef08b746f70cc5d84206f0c91302f = $(`<div id="html_dc8ef08b746f70cc5d84206f0c91302f" style="width: 100.0%; height: 100.0%;">Golden Lion</div>`)[0];
+                popup_14eb9e8eb1840b2092c6aecc3880d53e.setContent(html_dc8ef08b746f70cc5d84206f0c91302f);
+            
+        
+
+        marker_1fa97a1e6def0ae8cd77f741377e3c37.bindPopup(popup_14eb9e8eb1840b2092c6aecc3880d53e)
+        ;
+
+        
+    
+    
+            var marker_c14f2153fe90c8d17f6433e24fe53b28 = L.marker(
+                [55.866404, -4.2599823],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_dec0ba9c144e06e48189bb3ff94e932c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3a26f79e6fe74d4e30c7c0b7a617f53 = $(`<div id="html_c3a26f79e6fe74d4e30c7c0b7a617f53" style="width: 100.0%; height: 100.0%;">easyHotel</div>`)[0];
+                popup_dec0ba9c144e06e48189bb3ff94e932c.setContent(html_c3a26f79e6fe74d4e30c7c0b7a617f53);
+            
+        
+
+        marker_c14f2153fe90c8d17f6433e24fe53b28.bindPopup(popup_dec0ba9c144e06e48189bb3ff94e932c)
+        ;
+
+        
+    
+    
+            var marker_46260cbdf63bc013a5bf58c38c66c358 = L.marker(
+                [55.866673, -4.2660279],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_56e2897583c29413386a8cbee3f0adff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4e3bef8154dfa943e4b95572dfcfa4 = $(`<div id="html_8d4e3bef8154dfa943e4b95572dfcfa4" style="width: 100.0%; height: 100.0%;">Rennie Mackintosh Art School Hotel</div>`)[0];
+                popup_56e2897583c29413386a8cbee3f0adff.setContent(html_8d4e3bef8154dfa943e4b95572dfcfa4);
+            
+        
+
+        marker_46260cbdf63bc013a5bf58c38c66c358.bindPopup(popup_56e2897583c29413386a8cbee3f0adff)
+        ;
+
+        
+    
+    
+            var marker_f092312ecf1e35c822a95e97ba1e1f98 = L.marker(
+                [56.065777, -4.4530742],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_d8972f91f3660123d2f34e1a807a904f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7269e53b9dfc94b380e8e4c246bcfdb6 = $(`<div id="html_7269e53b9dfc94b380e8e4c246bcfdb6" style="width: 100.0%; height: 100.0%;">Winnock Hotel</div>`)[0];
+                popup_d8972f91f3660123d2f34e1a807a904f.setContent(html_7269e53b9dfc94b380e8e4c246bcfdb6);
+            
+        
+
+        marker_f092312ecf1e35c822a95e97ba1e1f98.bindPopup(popup_d8972f91f3660123d2f34e1a807a904f)
+        ;
+
+        
+    
+    
+            var marker_67b3d6951fce5e3aafa510fe5a2ddedd = L.marker(
+                [56.0660964, -4.4518147],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_57cfcb53f3d15067805317dd8a2ba4b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7ae1efd7ed831fd85c9890e403e5b2a = $(`<div id="html_b7ae1efd7ed831fd85c9890e403e5b2a" style="width: 100.0%; height: 100.0%;">The Drymen Inn</div>`)[0];
+                popup_57cfcb53f3d15067805317dd8a2ba4b7.setContent(html_b7ae1efd7ed831fd85c9890e403e5b2a);
+            
+        
+
+        marker_67b3d6951fce5e3aafa510fe5a2ddedd.bindPopup(popup_57cfcb53f3d15067805317dd8a2ba4b7)
+        ;
+
+        
+    
+    
+            var marker_30e6ca75ecc22badffeb0e0d0acb3198 = L.marker(
+                [56.0658924, -4.4516497],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_cfae4aea8595b68e0bb69afdcb66f0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70554e904f287ee374532ad899efa8aa = $(`<div id="html_70554e904f287ee374532ad899efa8aa" style="width: 100.0%; height: 100.0%;">Elmbank Self Catering B&B</div>`)[0];
+                popup_cfae4aea8595b68e0bb69afdcb66f0b3.setContent(html_70554e904f287ee374532ad899efa8aa);
+            
+        
+
+        marker_30e6ca75ecc22badffeb0e0d0acb3198.bindPopup(popup_cfae4aea8595b68e0bb69afdcb66f0b3)
+        ;
+
+        
+    
+    
+            var marker_b67070f5f2f8fece7ffaf520294629e8 = L.marker(
+                [55.8593832, -4.2507405],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_fa87928e27e79a655fd7df36f07bc3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66a711b2170917bf8655b301cf957cb6 = $(`<div id="html_66a711b2170917bf8655b301cf957cb6" style="width: 100.0%; height: 100.0%;">Ibis Styles Glasgow Centre George Square</div>`)[0];
+                popup_fa87928e27e79a655fd7df36f07bc3a4.setContent(html_66a711b2170917bf8655b301cf957cb6);
+            
+        
+
+        marker_b67070f5f2f8fece7ffaf520294629e8.bindPopup(popup_fa87928e27e79a655fd7df36f07bc3a4)
+        ;
+
+        
+    
+    
+            var marker_34d800ab520531845a09b1a244e117df = L.marker(
+                [56.0048712, -4.5577886],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f4042fd1d980d98a73690f902eb95ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd03c5efb5fdabdc2d7e1efe1c7c4c0b = $(`<div id="html_bd03c5efb5fdabdc2d7e1efe1c7c4c0b" style="width: 100.0%; height: 100.0%;">Dumbain Farm</div>`)[0];
+                popup_f4042fd1d980d98a73690f902eb95ca7.setContent(html_bd03c5efb5fdabdc2d7e1efe1c7c4c0b);
+            
+        
+
+        marker_34d800ab520531845a09b1a244e117df.bindPopup(popup_f4042fd1d980d98a73690f902eb95ca7)
+        ;
+
+        
+    
+    
+            var marker_42fa4b73afacbc917622f26349d4f156 = L.marker(
+                [55.8566736, -4.2552227],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_7867af63f702473fb5d4398b53fe85b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18ac70b4a10684ebcaaa0047fcd257d6 = $(`<div id="html_18ac70b4a10684ebcaaa0047fcd257d6" style="width: 100.0%; height: 100.0%;">St Enoch Hotel</div>`)[0];
+                popup_7867af63f702473fb5d4398b53fe85b9.setContent(html_18ac70b4a10684ebcaaa0047fcd257d6);
+            
+        
+
+        marker_42fa4b73afacbc917622f26349d4f156.bindPopup(popup_7867af63f702473fb5d4398b53fe85b9)
+        ;
+
+        
+    
+    
+            var marker_e673647b5e3a0c3ebb62b73e283ed5e6 = L.marker(
+                [55.54415, -4.6694519],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_7e50549206346b7ba819711cd2e22e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b48169dbb4cae000b4695b2fdaa3601 = $(`<div id="html_0b48169dbb4cae000b4695b2fdaa3601" style="width: 100.0%; height: 100.0%;">The Anchorage Hotel</div>`)[0];
+                popup_7e50549206346b7ba819711cd2e22e68.setContent(html_0b48169dbb4cae000b4695b2fdaa3601);
+            
+        
+
+        marker_e673647b5e3a0c3ebb62b73e283ed5e6.bindPopup(popup_7e50549206346b7ba819711cd2e22e68)
+        ;
+
+        
+    
+    
+            var marker_ab8b1d74690cc723dcc3edb4df02f110 = L.marker(
+                [55.8640342, -4.2570015],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f89f6d47867bdbe638524a6bc1625934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545287bd7afc9aae623f6527e79a7497 = $(`<div id="html_545287bd7afc9aae623f6527e79a7497" style="width: 100.0%; height: 100.0%;">Point A</div>`)[0];
+                popup_f89f6d47867bdbe638524a6bc1625934.setContent(html_545287bd7afc9aae623f6527e79a7497);
+            
+        
+
+        marker_ab8b1d74690cc723dcc3edb4df02f110.bindPopup(popup_f89f6d47867bdbe638524a6bc1625934)
+        ;
+
+        
+    
+    
+            var marker_475617a7f8712246efd8485c0990ad45 = L.marker(
+                [55.8656303, -4.2842441],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_4a963eac271fa3b3ad680df0172a6a5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c7479b25e35fba5d62ac4cc8173ddb = $(`<div id="html_d1c7479b25e35fba5d62ac4cc8173ddb" style="width: 100.0%; height: 100.0%;">The Sandyford Hotel</div>`)[0];
+                popup_4a963eac271fa3b3ad680df0172a6a5a.setContent(html_d1c7479b25e35fba5d62ac4cc8173ddb);
+            
+        
+
+        marker_475617a7f8712246efd8485c0990ad45.bindPopup(popup_4a963eac271fa3b3ad680df0172a6a5a)
+        ;
+
+        
+    
+    
+            var marker_83eff144d2448de7fa57f6a2084d34ac = L.marker(
+                [55.8617798, -4.2485779],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_77d0bcf6c40b2a66d25ca293ebca639f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5fc873a078cdba67504e361840179e = $(`<div id="html_dd5fc873a078cdba67504e361840179e" style="width: 100.0%; height: 100.0%;">The Z Hotel</div>`)[0];
+                popup_77d0bcf6c40b2a66d25ca293ebca639f.setContent(html_dd5fc873a078cdba67504e361840179e);
+            
+        
+
+        marker_83eff144d2448de7fa57f6a2084d34ac.bindPopup(popup_77d0bcf6c40b2a66d25ca293ebca639f)
+        ;
+
+        
+    
+    
+            var marker_b4f384909e2b8295f3be772be6d8cafe = L.marker(
+                [55.6110081, -4.6758521],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_946f3406bf078451519b56b985a0e1a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab9e842b5a2f090d3d1a1bd2a89cbd3 = $(`<div id="html_2ab9e842b5a2f090d3d1a1bd2a89cbd3" style="width: 100.0%; height: 100.0%;">Harbourside Hotel</div>`)[0];
+                popup_946f3406bf078451519b56b985a0e1a6.setContent(html_2ab9e842b5a2f090d3d1a1bd2a89cbd3);
+            
+        
+
+        marker_b4f384909e2b8295f3be772be6d8cafe.bindPopup(popup_946f3406bf078451519b56b985a0e1a6)
+        ;
+
+        
+    
+    
+            var marker_01f79a26856fde7572640222a0ef7485 = L.marker(
+                [56.119233, -3.938057],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_d0b3eedf3e3f0657d918782c9b2d9c48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a3927b41e0bcc5f15b130ebfc15e08e = $(`<div id="html_4a3927b41e0bcc5f15b130ebfc15e08e" style="width: 100.0%; height: 100.0%;">Friars Wynd</div>`)[0];
+                popup_d0b3eedf3e3f0657d918782c9b2d9c48.setContent(html_4a3927b41e0bcc5f15b130ebfc15e08e);
+            
+        
+
+        marker_01f79a26856fde7572640222a0ef7485.bindPopup(popup_d0b3eedf3e3f0657d918782c9b2d9c48)
+        ;
+
+        
+    
+    
+            var marker_d4bf8c5cef092da39db56a96976cb489 = L.marker(
+                [56.1445424, -4.3801731],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_31472182d5fcd561901cb57cf8b09f92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a1b1e84e79e9a50f870cf78c683c5d6 = $(`<div id="html_7a1b1e84e79e9a50f870cf78c683c5d6" style="width: 100.0%; height: 100.0%;">Black Bull Hotel</div>`)[0];
+                popup_31472182d5fcd561901cb57cf8b09f92.setContent(html_7a1b1e84e79e9a50f870cf78c683c5d6);
+            
+        
+
+        marker_d4bf8c5cef092da39db56a96976cb489.bindPopup(popup_31472182d5fcd561901cb57cf8b09f92)
+        ;
+
+        
+    
+    
+            var marker_70035976fa8c71f0298ca5cf39b28846 = L.marker(
+                [56.0024054, -4.585322],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_88f28b7ba9eb9d192d63e117b7611136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaf1a69fa183efb41a78cd3bc0a4520c = $(`<div id="html_aaf1a69fa183efb41a78cd3bc0a4520c" style="width: 100.0%; height: 100.0%;">Lomond Park Hotel</div>`)[0];
+                popup_88f28b7ba9eb9d192d63e117b7611136.setContent(html_aaf1a69fa183efb41a78cd3bc0a4520c);
+            
+        
+
+        marker_70035976fa8c71f0298ca5cf39b28846.bindPopup(popup_88f28b7ba9eb9d192d63e117b7611136)
+        ;
+
+        
+    
+    
+            var marker_8f311273f6e47338021d99ad01b1305b = L.marker(
+                [55.8604739, -4.263227],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_1eaca8acaacc421fcbf55aad98f8fac5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf057f4472d36a94028a28e9e6dc598b = $(`<div id="html_bf057f4472d36a94028a28e9e6dc598b" style="width: 100.0%; height: 100.0%;">Hotel Indigo</div>`)[0];
+                popup_1eaca8acaacc421fcbf55aad98f8fac5.setContent(html_bf057f4472d36a94028a28e9e6dc598b);
+            
+        
+
+        marker_8f311273f6e47338021d99ad01b1305b.bindPopup(popup_1eaca8acaacc421fcbf55aad98f8fac5)
+        ;
+
+        
+    
+    
+            var marker_569fdd2923bfe0917dd6759017730322 = L.marker(
+                [55.9146806, -4.5293752],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a35fabccacf788edc2fd90489c273efb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf6ac6ad0b9753abdeda8376ce738e13 = $(`<div id="html_bf6ac6ad0b9753abdeda8376ce738e13" style="width: 100.0%; height: 100.0%;">Ingliston Country Club</div>`)[0];
+                popup_a35fabccacf788edc2fd90489c273efb.setContent(html_bf6ac6ad0b9753abdeda8376ce738e13);
+            
+        
+
+        marker_569fdd2923bfe0917dd6759017730322.bindPopup(popup_a35fabccacf788edc2fd90489c273efb)
+        ;
+
+        
+    
+    
+            var marker_420667eee8614ac270f60413e303c9e9 = L.marker(
+                [55.8642072, -4.2584767],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_7b73fd1e851c015851521d8cf5c8611b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3942365bef0b772e02383c522928141 = $(`<div id="html_d3942365bef0b772e02383c522928141" style="width: 100.0%; height: 100.0%;">Apex City of Glasgow</div>`)[0];
+                popup_7b73fd1e851c015851521d8cf5c8611b.setContent(html_d3942365bef0b772e02383c522928141);
+            
+        
+
+        marker_420667eee8614ac270f60413e303c9e9.bindPopup(popup_7b73fd1e851c015851521d8cf5c8611b)
+        ;
+
+        
+    
+    
+            var marker_93b3284025aec0f3284b2085ab825834 = L.marker(
+                [56.0038649, -4.5806911],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f76bed8dc878734459f920f7937ad641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8077d393fe066a8e36a87186116abea6 = $(`<div id="html_8077d393fe066a8e36a87186116abea6" style="width: 100.0%; height: 100.0%;">Balloch House</div>`)[0];
+                popup_f76bed8dc878734459f920f7937ad641.setContent(html_8077d393fe066a8e36a87186116abea6);
+            
+        
+
+        marker_93b3284025aec0f3284b2085ab825834.bindPopup(popup_f76bed8dc878734459f920f7937ad641)
+        ;
+
+        
+    
+    
+            var marker_5d17bf908a9d7ea68267bcd3568b85d1 = L.marker(
+                [55.8651452, -4.2660588],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a1501174a8ffdb4737ab4082b6328d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8612e9e1cb4df9b47bcad82f233e5deb = $(`<div id="html_8612e9e1cb4df9b47bcad82f233e5deb" style="width: 100.0%; height: 100.0%;">Newton Hotel</div>`)[0];
+                popup_a1501174a8ffdb4737ab4082b6328d38.setContent(html_8612e9e1cb4df9b47bcad82f233e5deb);
+            
+        
+
+        marker_5d17bf908a9d7ea68267bcd3568b85d1.bindPopup(popup_a1501174a8ffdb4737ab4082b6328d38)
+        ;
+
+        
+    
+    
+            var marker_ec34a3069e12282aa9a5bf7d0f1e1bad = L.marker(
+                [55.8341865, -4.2703906],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_1931fb6ae6a949b9657f294c23c261ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98808168cbde217fc14c4a924389cc03 = $(`<div id="html_98808168cbde217fc14c4a924389cc03" style="width: 100.0%; height: 100.0%;">Queens Park Hotel</div>`)[0];
+                popup_1931fb6ae6a949b9657f294c23c261ff.setContent(html_98808168cbde217fc14c4a924389cc03);
+            
+        
+
+        marker_ec34a3069e12282aa9a5bf7d0f1e1bad.bindPopup(popup_1931fb6ae6a949b9657f294c23c261ff)
+        ;
+
+        
+    
+    
+            var marker_e3abef8730ed0f4b11824f9b359bb87b = L.marker(
+                [55.8622293, -4.256852],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_9ee20bbf7623a086cfb4eb8a161068f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31df3ff29bcf37079599bf6ead56dad8 = $(`<div id="html_31df3ff29bcf37079599bf6ead56dad8" style="width: 100.0%; height: 100.0%;">Park Inn</div>`)[0];
+                popup_9ee20bbf7623a086cfb4eb8a161068f1.setContent(html_31df3ff29bcf37079599bf6ead56dad8);
+            
+        
+
+        marker_e3abef8730ed0f4b11824f9b359bb87b.bindPopup(popup_9ee20bbf7623a086cfb4eb8a161068f1)
+        ;
+
+        
+    
+    
+            var marker_8ebb1ad10a92f7f4b12cbcb73f8657a5 = L.marker(
+                [55.8587866, -4.2595607],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_22965879ca5ea7da3f189d0a0d01bbc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d56aa06f1439a2419b4a4588625236 = $(`<div id="html_81d56aa06f1439a2419b4a4588625236" style="width: 100.0%; height: 100.0%;">YOTEL Glasgow</div>`)[0];
+                popup_22965879ca5ea7da3f189d0a0d01bbc9.setContent(html_81d56aa06f1439a2419b4a4588625236);
+            
+        
+
+        marker_8ebb1ad10a92f7f4b12cbcb73f8657a5.bindPopup(popup_22965879ca5ea7da3f189d0a0d01bbc9)
+        ;
+
+        
+    
+    
+            var marker_709edc0826a277fd7c1d34315ac16f8c = L.marker(
+                [56.0031542, -4.7348727],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_ea938bb524225abd00d76f501bba5ace = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f02b364daea61d6b6f6bda8273e677 = $(`<div id="html_06f02b364daea61d6b6f6bda8273e677" style="width: 100.0%; height: 100.0%;">Riva</div>`)[0];
+                popup_ea938bb524225abd00d76f501bba5ace.setContent(html_06f02b364daea61d6b6f6bda8273e677);
+            
+        
+
+        marker_709edc0826a277fd7c1d34315ac16f8c.bindPopup(popup_ea938bb524225abd00d76f501bba5ace)
+        ;
+
+        
+    
+    
+            var marker_8b009da5cf34717c815eb27b306ccb5b = L.marker(
+                [55.8654681, -4.2556886],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_c4bf951064048664bbd702e90c8d4cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_061ee6928c41c200a496998830bfffa9 = $(`<div id="html_061ee6928c41c200a496998830bfffa9" style="width: 100.0%; height: 100.0%;">Maldron Hotel Glasgow City</div>`)[0];
+                popup_c4bf951064048664bbd702e90c8d4cef.setContent(html_061ee6928c41c200a496998830bfffa9);
+            
+        
+
+        marker_8b009da5cf34717c815eb27b306ccb5b.bindPopup(popup_c4bf951064048664bbd702e90c8d4cef)
+        ;
+
+        
+    
+    
+            var marker_2c608bb57113a54d0b53c3058a72cea1 = L.marker(
+                [55.8308134, -4.2581216],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8a377ca6b97d1c24194329649712af18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22b436e211c1a9b82e75844a1258cd7b = $(`<div id="html_22b436e211c1a9b82e75844a1258cd7b" style="width: 100.0%; height: 100.0%;">Number 10 Hotel</div>`)[0];
+                popup_8a377ca6b97d1c24194329649712af18.setContent(html_22b436e211c1a9b82e75844a1258cd7b);
+            
+        
+
+        marker_2c608bb57113a54d0b53c3058a72cea1.bindPopup(popup_8a377ca6b97d1c24194329649712af18)
+        ;
+
+        
+    
+    
+            var marker_2b3a2c710151fdd4c5193a853ed0e491 = L.marker(
+                [55.8594474, -4.2519631],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_903fec211c7d84025d7328f457b466cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_096fcc8ec341aa2a914c7441ee28a1fe = $(`<div id="html_096fcc8ec341aa2a914c7441ee28a1fe" style="width: 100.0%; height: 100.0%;">Travelodge Glasgow Queen Street</div>`)[0];
+                popup_903fec211c7d84025d7328f457b466cc.setContent(html_096fcc8ec341aa2a914c7441ee28a1fe);
+            
+        
+
+        marker_2b3a2c710151fdd4c5193a853ed0e491.bindPopup(popup_903fec211c7d84025d7328f457b466cc)
+        ;
+
+        
+    
+    
+            var marker_f29188d913f509283350541e653deb68 = L.marker(
+                [55.8620702, -4.2529504],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_943eeb82c6d15b7e74c9ce263ff44020 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e77dafd3b91bbccb34374ccc13e6efa = $(`<div id="html_3e77dafd3b91bbccb34374ccc13e6efa" style="width: 100.0%; height: 100.0%;">Carlton George</div>`)[0];
+                popup_943eeb82c6d15b7e74c9ce263ff44020.setContent(html_3e77dafd3b91bbccb34374ccc13e6efa);
+            
+        
+
+        marker_f29188d913f509283350541e653deb68.bindPopup(popup_943eeb82c6d15b7e74c9ce263ff44020)
+        ;
+
+        
+    
+    
+            var marker_1b907184833e18367d5c900702fc6193 = L.marker(
+                [55.8752055, -4.2823674],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_f56d75085a05e9783ab3f640d6a553fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34c2a799e1baf86d4075786c06f0a9a9 = $(`<div id="html_34c2a799e1baf86d4075786c06f0a9a9" style="width: 100.0%; height: 100.0%;">Glasgow House</div>`)[0];
+                popup_f56d75085a05e9783ab3f640d6a553fb.setContent(html_34c2a799e1baf86d4075786c06f0a9a9);
+            
+        
+
+        marker_1b907184833e18367d5c900702fc6193.bindPopup(popup_f56d75085a05e9783ab3f640d6a553fb)
+        ;
+
+        
+    
+    
+            var marker_7e8c880f7c4a10cd21a7c3be741d19a4 = L.marker(
+                [55.861088, -4.4318897],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_a7fef9aa7afac1510316d278c7ad7d97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28cfb9e87fdfb0d095d5ca7f52a9ea76 = $(`<div id="html_28cfb9e87fdfb0d095d5ca7f52a9ea76" style="width: 100.0%; height: 100.0%;">Courtyard by Marriott</div>`)[0];
+                popup_a7fef9aa7afac1510316d278c7ad7d97.setContent(html_28cfb9e87fdfb0d095d5ca7f52a9ea76);
+            
+        
+
+        marker_7e8c880f7c4a10cd21a7c3be741d19a4.bindPopup(popup_a7fef9aa7afac1510316d278c7ad7d97)
+        ;
+
+        
+    
+    
+            var marker_baaaa26761b39b34e92c0b309e7b6abf = L.marker(
+                [56.0048316, -3.7755758],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_8278b4e3806a85ece66a841d026b5d46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13236e8b1ca238c5e047d4fef5b0db36 = $(`<div id="html_13236e8b1ca238c5e047d4fef5b0db36" style="width: 100.0%; height: 100.0%;">Holiday Flats</div>`)[0];
+                popup_8278b4e3806a85ece66a841d026b5d46.setContent(html_13236e8b1ca238c5e047d4fef5b0db36);
+            
+        
+
+        marker_baaaa26761b39b34e92c0b309e7b6abf.bindPopup(popup_8278b4e3806a85ece66a841d026b5d46)
+        ;
+
+        
+    
+    
+            var marker_b5fa20d416b5b7596c12d3327ea46b90 = L.marker(
+                [55.9899203, -4.3368636],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_79eeec739647cb42354e30ea4b3b3c12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c9bda7341939b46b1491f405afa377 = $(`<div id="html_29c9bda7341939b46b1491f405afa377" style="width: 100.0%; height: 100.0%;">West Highland Way Hotel</div>`)[0];
+                popup_79eeec739647cb42354e30ea4b3b3c12.setContent(html_29c9bda7341939b46b1491f405afa377);
+            
+        
+
+        marker_b5fa20d416b5b7596c12d3327ea46b90.bindPopup(popup_79eeec739647cb42354e30ea4b3b3c12)
+        ;
+
+        
+    
+    
+            var marker_0b4af96620e4a7691d225029dd2c3c3e = L.marker(
+                [55.8667929, -3.967008],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_ba19fd32a038f6b256e479e448014ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_113a0201ed223924a50dcac5aa5c3a03 = $(`<div id="html_113a0201ed223924a50dcac5aa5c3a03" style="width: 100.0%; height: 100.0%;">Knight's Rest Guest House Scotland</div>`)[0];
+                popup_ba19fd32a038f6b256e479e448014ff6.setContent(html_113a0201ed223924a50dcac5aa5c3a03);
+            
+        
+
+        marker_0b4af96620e4a7691d225029dd2c3c3e.bindPopup(popup_ba19fd32a038f6b256e479e448014ff6)
+        ;
+
+        
+    
+    
+            var marker_9718226dd886f3e6bbc7ba20b623e904 = L.marker(
+                [55.8568728, -4.2562136],
+                {}
+            ).addTo(marker_cluster_22659a44509b53a214ee0a956516ec39);
+        
+    
+        var popup_89d6d7937ff1170b70008ff450a32859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5337c1cc7abb2a13488b8ae24669667b = $(`<div id="html_5337c1cc7abb2a13488b8ae24669667b" style="width: 100.0%; height: 100.0%;">Premier Inn</div>`)[0];
+                popup_89d6d7937ff1170b70008ff450a32859.setContent(html_5337c1cc7abb2a13488b8ae24669667b);
+            
+        
+
+        marker_9718226dd886f3e6bbc7ba20b623e904.bindPopup(popup_89d6d7937ff1170b70008ff450a32859)
+        ;
+
+        
+    
+    
+            marker_cluster_22659a44509b53a214ee0a956516ec39.addTo(map_3c487ccb771b1031c3204acbd4a3d24d);
+        
+</script>
+</html>

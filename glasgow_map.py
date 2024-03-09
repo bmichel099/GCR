@@ -15,7 +15,7 @@ marker_cluster = MarkerCluster().add_to(glasgow_map)
 for idx, row in gdf.iterrows():
     folium.Marker(
         location=[row['geometry'].y, row['geometry'].x],
-        popup=row['Name']  # Adjust 'Name' to the actual column name in your shapefile
+        popup=row['name']  # Adjust 'Name' to the actual column name in your shapefile
     ).add_to(marker_cluster)
 
 # Save the map as an HTML file
