@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_948a651fa3a8bf290d4a442744c17b22 {
+                #map_6a6edb0420a51f9dee06f88f7c1c48cd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -47,14 +47,14 @@
 <b>Legend</b><br>
 </div>
     
-            <div class="folium-map" id="map_948a651fa3a8bf290d4a442744c17b22" ></div>
+            <div class="folium-map" id="map_6a6edb0420a51f9dee06f88f7c1c48cd" ></div>
         
 </body>
 <script>
     
     
-            var map_948a651fa3a8bf290d4a442744c17b22 = L.map(
-                "map_948a651fa3a8bf290d4a442744c17b22",
+            var map_6a6edb0420a51f9dee06f88f7c1c48cd = L.map(
+                "map_6a6edb0420a51f9dee06f88f7c1c48cd",
                 {
                     center: [55.8642, -4.2518],
                     crs: L.CRS.EPSG3857,
@@ -68,47 +68,47 @@
 
         
     
-            var tile_layer_81b7594377665042044eb68f9a1e7356 = L.tileLayer(
+            var tile_layer_8a99c2b3ad710b57540eb4275f6286ba = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_81b7594377665042044eb68f9a1e7356.addTo(map_948a651fa3a8bf290d4a442744c17b22);
+            tile_layer_8a99c2b3ad710b57540eb4275f6286ba.addTo(map_6a6edb0420a51f9dee06f88f7c1c48cd);
         
     
-            var marker_cluster_8f164a1a45c4a792af940d045b9ffb2d = L.markerClusterGroup(
+            var marker_cluster_99c4a9ed7179a94a01ee0bc459ab2d99 = L.markerClusterGroup(
                 {}
             );
         
     
-            marker_cluster_8f164a1a45c4a792af940d045b9ffb2d.addTo(map_948a651fa3a8bf290d4a442744c17b22);
+            marker_cluster_99c4a9ed7179a94a01ee0bc459ab2d99.addTo(map_6a6edb0420a51f9dee06f88f7c1c48cd);
         
     
-            var layer_control_0441329827d0834973247d24a54f5886_layers = {
+            var layer_control_bd191fbdf5f4709d7c72556b5863b207_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_81b7594377665042044eb68f9a1e7356,
+                    "openstreetmap" : tile_layer_8a99c2b3ad710b57540eb4275f6286ba,
                 },
                 overlays :  {
-                    "macro_element_8f164a1a45c4a792af940d045b9ffb2d" : marker_cluster_8f164a1a45c4a792af940d045b9ffb2d,
-                    "macro_element_8c3528acfa0cde41d11815784ccee93d" : heat_map_8c3528acfa0cde41d11815784ccee93d,
+                    "macro_element_99c4a9ed7179a94a01ee0bc459ab2d99" : marker_cluster_99c4a9ed7179a94a01ee0bc459ab2d99,
+                    "macro_element_c7c359e8d08d30b37519b2f10146a2ad" : heat_map_c7c359e8d08d30b37519b2f10146a2ad,
                 },
             };
-            let layer_control_0441329827d0834973247d24a54f5886 = L.control.layers(
-                layer_control_0441329827d0834973247d24a54f5886_layers.base_layers,
-                layer_control_0441329827d0834973247d24a54f5886_layers.overlays,
+            let layer_control_bd191fbdf5f4709d7c72556b5863b207 = L.control.layers(
+                layer_control_bd191fbdf5f4709d7c72556b5863b207_layers.base_layers,
+                layer_control_bd191fbdf5f4709d7c72556b5863b207_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_948a651fa3a8bf290d4a442744c17b22);
+            ).addTo(map_6a6edb0420a51f9dee06f88f7c1c48cd);
 
         
     
-            var heat_map_8c3528acfa0cde41d11815784ccee93d = L.heatLayer(
+            var heat_map_c7c359e8d08d30b37519b2f10146a2ad = L.heatLayer(
                 [],
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
             );
         
     
-            heat_map_8c3528acfa0cde41d11815784ccee93d.addTo(map_948a651fa3a8bf290d4a442744c17b22);
+            heat_map_c7c359e8d08d30b37519b2f10146a2ad.addTo(map_6a6edb0420a51f9dee06f88f7c1c48cd);
         
 </script>
 </html>

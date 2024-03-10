@@ -38,7 +38,7 @@ legend_html += "</div>"
 glasgow_map.get_root().html.add_child(folium.Element(legend_html))
 
 # Add LayerControl to the map
-folium.map.LayerControl().add_to(glasgow_map)
+folium.LayerControl().add_to(glasgow_map)
 
 # Create a density map analysis layer
 heat_data = [[point.xy[1][0], point.xy[0][0]] for point in gdf.geometry]
